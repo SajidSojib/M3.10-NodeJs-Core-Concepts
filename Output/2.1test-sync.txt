@@ -1,0 +1,2 @@
+I am learning write file in NodeJS file system
+Syncronously!!!
