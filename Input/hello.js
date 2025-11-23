@@ -2,6 +2,10 @@ console.log("node version: ", process.version);
 console.log(`platform: `, process.platform);
 console.log(`argument: `, process.argv);
 
+// process.argv[0] -> node path
+// process.argv[1] -> file path
+// process.argv[2] -> argument
+
 const name = process.argv[2] || "guest";
 const time = new Date().getHours();
 
